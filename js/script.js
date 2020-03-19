@@ -162,7 +162,14 @@ function giveLocation()
     myDirections += "<li>" + directions[currentLocation][i] + "</li>";
   }
   myPossibilities.innerHTML = myDirections;
-  myInventory.innerHTML = "uw inventory is leeg";
+  if (gotTreasure == true)
+  {
+    myInventory.innerHTML = "Key"; 
+  }
+  else
+  {
+    myInventory.innerHTML = "uw inventory is leeg";
+  }
   showTreasure(currentLocation);
 }
 
