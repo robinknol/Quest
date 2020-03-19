@@ -43,17 +43,7 @@ let directions = [];
   directions[2] = ["zuid"];
   directions[3] = ["oost"];
   directions[4] = ["noord", "west", "zuid"];
-
-  // if (doorLock == true)
-  // {
-    directions[5] = ["zuid"];
-  // }
-  // else if (doorLock == false)
-  // {
-    // directions[5] = ["noord", "zuid"];
-  //   console.log("Hello");
-  // }
-  
+  directions[5] = ["zuid"];
   directions[6] = ["oost"];
   directions[7] = ["noord", "west", "oost"];
   directions[8] = ["noord", "west"];
